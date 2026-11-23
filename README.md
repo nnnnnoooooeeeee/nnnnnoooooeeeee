@@ -1,10 +1,8 @@
-
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=nnnnnoooooeeeee&theme=radical&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=nnnnnoooooeeeee&theme=radical&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=nnnnnoooooeeeee&theme=radical&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
----
-[![](https://komarev.com/ghpvc/?username=nnnnnoooooeeeee&icon=0&color=0)](https://visitcount.itsvg.in)
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<!-- Paste this into README.md in the nnnnnoooooeeeee/nnnnnoooooeeeee repo -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nnnnnoooooeeeee/nnnnnoooooeeeee/output/city-night.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nnnnnoooooeeeee/nnnnnoooooeeeee/output/city-day.svg" />
+    <img alt="My GitHub contribution city: each building is one week, taller means more commits" src="https://raw.githubusercontent.com/nnnnnoooooeeeee/nnnnnoooooeeeee/output/city-night.svg" />
+  </picture>
+</p>
