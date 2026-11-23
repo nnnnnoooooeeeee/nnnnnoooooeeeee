@@ -1,4 +1,4 @@
-name: Pixel City
+name: Profile images
 
 on:
   schedule:
@@ -7,7 +7,7 @@ on:
   push:
     branches: [main]
     paths:
-      - scripts/pixel_city.py
+      - scripts/**
       - .github/workflows/pixel-city.yml
 
 permissions:
@@ -23,11 +23,13 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Generate city
+      - name: Generate pizza and city
         env:
           # Optional: add a PAT as the GH_PAT secret to include private contributions
           GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
-        run: python scripts/pixel_city.py --user ${{ github.repository_owner }} --out dist
+        run: |
+          python scripts/pizza.py --user ${{ github.repository_owner }} --out dist
+          python scripts/pixel_city.py --user ${{ github.repository_owner }} --out dist
 
       - name: Publish to the output branch
         run: |
